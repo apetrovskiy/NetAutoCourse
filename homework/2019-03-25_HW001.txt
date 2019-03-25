@@ -1,0 +1,22 @@
+2019-03-25
+1) download SoapUI Open Source
+https://www.soapui.org/downloads/soapui.html
+https://s3.amazonaws.com/downloads.eviware/soapuios/5.5.0/SoapUI-x32-5.5.0.exe
+
+2) open ..\moreNetSamples\Animals.Server.SoapUI\REST-Project-3-soapui-project.xml
+it should be working for some endpoints
+
+3) try using Postman against the Animals service (the same as we did in Restlet)
+
+Appendix A:
+download https://github.com/apetrovskiy/moreNetSamples, clone to a folder via Github Desktop
+
+Appendix B:
+run cmd as Administrator
+issue the command:
+netsh http add urlacl url=http://+:1235/ user=everyone
+
+Appendix C:
+to run the service just run Service.Runner
+(1 - right click on the project, select 'Set as Start Up', F5/Run
+2 - right click on the project, select Run)
